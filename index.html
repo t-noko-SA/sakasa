@@ -3,15 +3,51 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>回文できるかな</title>
+  <meta name="description" content="入力した言葉から「さかさ言葉」を見つけるよ。">
+  <meta name="keywords" content="さかさ言葉,逆さ言葉,さかさことば,さかさ言葉,回文,ジェネレータ">
+  <meta name="robots" content="ALL">
+  <meta name="rating" content="general">
+  <meta name="author" content="t-noko">  
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta property="og:url" content="https://t-noko-sa.github.io/sakasa" />
+  <meta property="og:title" content="さかさ言葉サーチ" />
+  <meta property="og:description" content="入力した言葉から「さかさ言葉」を見つけるよ。" />  
+  <title>さかさ言葉サーチ</title>
+  <link rel="stylesheet" href="sakasa.css" />
+  <link rel="shortcut icon" href="./img/ika.ico">
 </head>
+
 <body>
-  <h2>回文できるかな</h2>
-  <form action="" method="post" id="input_form"></form>
-    <input method="post" type="text" name="input" value="" autofocus=true rows="1" cols="40" id="input_text_area">
-    <div id="result-area">      
-      <script type="text/javascript" src="kaibun.js"></script>      
+  <div class="parent">
+    <div class='child'>
+      <h2>さかさ言葉サーチ</h2>
+      <div class='introduction'>
+        入力内容から「さかさ言葉」を見つけるよ。<br>ひらがな、またはカタカナを使ってね。<br>
+      </div>
+        <input method="post" type="text" name="input" value="" autofocus=true size="30" rows="1" cols="40"
+        id="input_text_area" maxlength="20">    
+    <div class="button">
+        <input method="post" type="button" name="clear" id="clear-button" value="クリア">
+        <input method="post" type="button" name="random" id="random-button" value="ランダム">
     </div>
-  </body>
+    <div class="result">
+      <div class="counter" id="counter-area">        
+      </div>
+      <span id="hira-result-area">
+      </span>
+      <span id="result-area">
+      </span>
+    </div>    
+      <div id="tweet-area">
+      </div>
+      <div id="git-hub-link">
+        <a href="https://github.com/t-noko-SA/sakasa" target="_blank" rel="noopener noreferrer">
+          <img src="./img/GitHub.png">
+        </a>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="sakasa.js"></script>
+</body>
 
 </html>

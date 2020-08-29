@@ -1,0 +1,116 @@
+body{
+  background-image:  url(img/kai.png), url(img/ika.png), linear-gradient( to top,transparent,#fff 100% ),url(img/back_02-50per.png);
+  background-size: 50%,50%,auto,auto;
+  background-position: -20%, 120%,top,top;
+  background-repeat: no-repeat, no-repeat, no-repeat, repeat;
+  color: #3a3a3a;
+  background-color: #1b85e9;
+  font-size: 80%;
+  }
+  h2 {
+    font-size: 125%;
+  }
+  .parent{
+    text-align:center;
+    /* background-color: rgba(170,202,233,0.85);   */
+    background-color: rgba(206,220,233,0.85);
+    padding:10px;
+    margin-top:5%;
+    margin-left: 10%;
+    margin-right: 10%;  
+    border-radius: 50px;/*角の丸み*/
+  }
+  .child {
+    display:inline-block;
+  }
+  .introduction{
+    text-align:start;
+    margin:0% 2%;
+  }
+  input[type="text"] {
+    margin:5%;
+    font-size: 100%;
+    width:90%;
+  }
+  input[type="button"]{
+    float:right;
+    margin:0% 2%;
+  }
+  .result{
+    margin:10% 2% 30% 2%;
+    font-size: 100%;
+    height: 6ex;
+    text-align: start;
+  }
+  .button{
+    margin-bottom:10%;
+    height: 1ex;
+  }
+  .counter{
+    margin-top: 5%;
+    margin-bottom: 10%;
+    /* color:#e47a16; */
+    /* color:#e46f00; */
+    /* color:#d05e00; */
+    color:#c3601e;
+    font-weight:bold;
+    font-size: 90%;
+    height: 1ex;
+  }
+  
+    
+@media screen and (min-width:481px)  {
+  body{
+    background-image:  url(img/kai.png), url(img/ika.png), linear-gradient( to top,transparent,#fff 100% ),url(img/back_02.png);
+    background-size: contain,contain,auto,auto;
+    background-repeat: no-repeat, no-repeat, no-repeat, repeat;
+  }
+  h2 {
+    font-size: 175%;
+  }
+  .parent{
+    margin-left: 15%;
+    margin-right: 15%;  
+    border-radius: 75px;/*角の丸み*/
+
+  }
+  input[type="text"] {
+    margin:5%;
+    font-size: 120%;
+    width:80%;
+  }    
+  .result{
+    font-size: 120%;
+  }
+}
+
+@media screen and (min-width:769px)  {
+  body{
+    background-image:  url(img/kai.png), url(img/ika.png), linear-gradient( to top,transparent,#fff 100% ),url(img/back_02.png);
+    background-size: contain,contain,auto,auto;
+    background-repeat: no-repeat, no-repeat, no-repeat, repeat;
+    font-size:120%;
+  }
+  h2 {
+    font-size: 200%;
+  }
+  .parent {
+    /* display:inline-block; */
+    margin-left: 20%;
+    margin-right: 20%;  
+    border-radius: 100px;/*角の丸み*/
+  }
+  input[type="text"] {
+    margin:5%;
+    font-size: 120%;
+    width:80%;
+  }    
+  .result{
+    font-size: 150%;
+  }    
+}
+
+
+
+
+
