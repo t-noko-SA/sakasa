@@ -19,11 +19,13 @@ body{
     margin-left: auto;
     margin-right: auto;
     width: 80%;
+    max-width: 700px;
     border-radius: 50px;/*角の丸み*/
   }
   .child {
-    display:inline-block;
-    position: center;
+    /* display:inline-block; */
+    display: block;
+    margin: 10%;
   }
   .introduction{
     text-align:start;
@@ -41,12 +43,12 @@ body{
   .result{
     margin:10% 2% 30% 2%;
     font-size: 100%;
-    height: 6ex;
+    min-height: 10ex;
     text-align: start;
   }
   .button{
     margin-bottom:10%;
-    height: 1ex;
+    min-height: 2ex;
   }
   .counter{
     margin-top: 5%;
@@ -54,14 +56,14 @@ body{
     color:#c3601e;
     font-weight:bold;
     font-size: 90%;
-    height: 1ex;
+    min-height: 1ex;
   }
   
     
 @media screen and (min-width:481px)  {
   body{
     background-image:  url(img/kai.png), url(img/ika.png), linear-gradient( to top,transparent,#fff 100% ),url(img/back_02.png);
-    background-size: contain,contain,auto,auto;
+    background-size: 50%,50%,auto,auto;
     background-repeat: no-repeat, no-repeat, no-repeat, repeat;
   }
   h2 {
@@ -77,6 +79,7 @@ body{
   }    
   .result{
     font-size: 120%;
+    min-height: 12ex;
   }
 }
 
