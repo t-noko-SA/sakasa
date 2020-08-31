@@ -6,22 +6,24 @@ body{
   color: #3a3a3a;
   background-color: #1b85e9;
   font-size: 80%;
+  font-family: 'M PLUS 1p', sans-serif;
   }
   h2 {
     font-size: 125%;
   }
   .parent{
     text-align:center;
-    /* background-color: rgba(170,202,233,0.85);   */
     background-color: rgba(206,220,233,0.85);
     padding:10px;
     margin-top:5%;
-    margin-left: 10%;
-    margin-right: 10%;  
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
     border-radius: 50px;/*角の丸み*/
   }
   .child {
     display:inline-block;
+    position: center;
   }
   .introduction{
     text-align:start;
@@ -49,9 +51,6 @@ body{
   .counter{
     margin-top: 5%;
     margin-bottom: 10%;
-    /* color:#e47a16; */
-    /* color:#e46f00; */
-    /* color:#d05e00; */
     color:#c3601e;
     font-weight:bold;
     font-size: 90%;
@@ -69,10 +68,7 @@ body{
     font-size: 175%;
   }
   .parent{
-    margin-left: 15%;
-    margin-right: 15%;  
     border-radius: 75px;/*角の丸み*/
-
   }
   input[type="text"] {
     margin:5%;
@@ -95,9 +91,6 @@ body{
     font-size: 200%;
   }
   .parent {
-    /* display:inline-block; */
-    margin-left: 20%;
-    margin-right: 20%;  
     border-radius: 100px;/*角の丸み*/
   }
   input[type="text"] {
