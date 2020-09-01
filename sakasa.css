@@ -86,7 +86,7 @@ body{
 @media screen and (min-width:769px)  {
   body{
     background-image:  url(img/kai.png), url(img/ika.png), linear-gradient( to top,transparent,#fff 100% ),url(img/back_02.png);
-    background-size: contain,contain,auto,auto;
+    background-size: 50%,50%,auto,auto;
     background-repeat: no-repeat, no-repeat, no-repeat, repeat;
     font-size:120%;
   }
